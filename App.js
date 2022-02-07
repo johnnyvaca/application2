@@ -8,6 +8,7 @@
 
 import React, {Component} from 'react';
 import {View, StyleSheet, TouchableOpacity, Text} from 'react-native';
+import Button from 'components/button';
 
 class App extends Component {
   constructor(props) {
@@ -66,7 +67,7 @@ const desStyles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  stBtnTxt: {fontSize: 18, color: '#7f8c8d', fontWeight: 'bold', opacity: 2},
+  stBtnTxt: {fontSize: 18, color: '#2c3e50', fontWeight: 'bold', opacity: 2},
   txtCounter: {flex: 1, justifyContent: 'center', alignItems: 'center'},
   txtC: {fontSize: 40, color: 'white', fontWeight: 'bold'},
 });
